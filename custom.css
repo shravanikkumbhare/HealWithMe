@@ -1,0 +1,56 @@
+#ami-3 .ami_sec {
+    display: flex;
+    align-items: center; /* Vertically center the image and text */
+    margin-bottom: 15px; /* Optional: Adds spacing between items */
+    width: 100%; /* Ensure the container takes up the full width */
+}
+
+#ami-3 .ami_sec img {
+    width: 30px !important;
+    height: 30px !important;
+    object-fit: cover !important;
+    margin-right: 10px; /* Adjust space between image and text */
+    flex-shrink: 0; /* Prevent the image from shrinking */
+}
+
+#ami-3 .ami_sec p {
+    margin-left: 20px; /* Removes default margin from the paragraph */
+    font-size: 14px; /* Optional: Adjust text size */
+    white-space: nowrap; /* Prevents text from wrapping onto the next line */
+}
+
+
+
+/* Ensure all gallery images have the same size */
+.gallery-thumb {
+    width: 100%; /* Make the image fill the container width */
+    height: 200px; /* Set a fixed height for uniformity */
+    object-fit: cover; /* Crop the image to fit without distortion */
+    display: block; /* Prevent inline spacing issues */
+    margin: 0 auto; /* Center the image */
+    border: 1px solid #ccc; /* Optional: Add a border for visibility */
+}
+
+/* Ensure the parent container maintains consistent dimensions */
+
+
+/* Optional: Responsive adjustments */
+@media (max-width: 768px) {
+    .gallery-thumb {
+        height: 150px; /* Reduce height for smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .gallery-thumb {
+        height: 100px; /* Further reduce height for extra-small screens */
+    }
+}
+header.micro-nav {
+    height: 100px;
+    
+}
+.at-property-img img {
+    filter: blur(1px);
+}
+
